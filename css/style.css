@@ -198,7 +198,7 @@ li:last-child{
 }
 
 .sect_two-li{
-    width: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 h3{
@@ -251,7 +251,7 @@ h3{
 
 .sect_three-ul-li{
     background-color: #FFFFFF;
-    width: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -316,7 +316,7 @@ h3{
 }
 
 .sect_four-li{
-    width:calc((100% - 48px)/3);
+    flex-basis:calc((100% - 48px)/3);
 }
 
 .face-box{
@@ -353,7 +353,7 @@ h3{
 }
 
 .footer-title{
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 16px; 
 
     color: #4D5AE5;
@@ -367,7 +367,7 @@ h3{
 
 .footer-span{
     color: #F4F4FD;
-    display:inline-block;
+    display: inline-block;
 }
 
 .footer-text{
