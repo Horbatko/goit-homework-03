@@ -26,7 +26,7 @@ img{
 }
 
 .container{
-    display: flex;
+    
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
@@ -194,8 +194,7 @@ span{
 .sect_two-ul{
     display: flex;
     gap:24px;
-    padding: 0%;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -204,7 +203,6 @@ li:last-child{
 }
 
 .sect_two-li{
-   
 }
 
 h3{
