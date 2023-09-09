@@ -195,7 +195,7 @@ span{
     display: flex;
     gap:24px;
     padding: 0%;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -324,7 +324,7 @@ h3{
 }
 
 .sect_four-li{
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .face-box{
@@ -361,6 +361,7 @@ h3{
 }
 
 .footer-title{
+    
     display: inline-block;
     margin-bottom: 16px; 
 
