@@ -26,14 +26,14 @@ img{
 }
 
 .container{
-    
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
 }
 
-.section_one .container{
-    
+section .container{
+
 }
 .header-nav{
     display: flex;
@@ -196,7 +196,7 @@ span{
 .sect_two-ul{
     display: flex;
     gap:24px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -324,7 +324,7 @@ h3{
 }
 
 .sect_four-li{
-    flex-basis:calc((100% - 48px)/3);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .face-box{
