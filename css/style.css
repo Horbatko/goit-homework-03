@@ -194,6 +194,7 @@ span{
 .sect_two-ul{
     display: flex;
     gap:24px;
+    padding: 0%;
     flex: calc((100% - 3 * 24px) / 4);
 }
 
@@ -315,6 +316,7 @@ h3{
 }
 
 .sect_four-ul{
+    padding: 0%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
