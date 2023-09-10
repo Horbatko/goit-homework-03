@@ -51,7 +51,9 @@ img{
     padding: 0 15px; 
 }
 
-
+.nav-block{
+    display: flex;
+}
 
 .header-nav{
     display: flex;
