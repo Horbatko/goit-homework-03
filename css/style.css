@@ -221,13 +221,12 @@ span{
 .sect_two-ul{
     display: flex;
     gap:24px;
-    
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
 li:last-child{
     margin-right: 0;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .sect_two-li{
